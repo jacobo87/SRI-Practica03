@@ -160,7 +160,16 @@ f. Establece los siguientes registros de alias (CNAME):
 Imagen 20.  DNS Zentyal mail
 ```
 3. Comprobar en cliente Ubuntu (debe estar configurado con ip fija) el funcionamiento del servidor DNS en el dominio de cada uno tunombre.sri con el comando ​dig​.
+![image21](images/DNS14.png "DNS Zentyal")
 
+```
+Imagen 21.  DNS Zentyal dig jacobo.sri
+```
+![image22](images/DNS15.png "DNS Zentyal")
+
+```
+Imagen 22.  DNS Zentyal ns.jacobo.sri
+```
 a. Que resuelve todos los nombre y alias.
 
 b. Que resuelve dominio externos.
