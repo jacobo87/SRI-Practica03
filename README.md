@@ -27,7 +27,16 @@ Imagen 2.  DNS Zentyal - Resolución de Nombre de Dominio
 Imagen 3.  DNS Zentyal - Resolución de Nombre de Dominio
 ```
 b. Configura el cliente windows y ubuntu con ip fija y que tengan como servidorDNS la dirección del servidor.
+![image4](images/DNS4.png "DNS Zentyal")
 
+```
+Imagen 4.  DNS Zentyal - DNS Ubuntu
+```
+![image5](images/DNS5.png "DNS Zentyal")
+
+```
+Imagen 5.  DNS Zentyal - DNS Windows
+```
 c. En windows usa la orden ​nslookup​ y realiza consultas a diversos dominios deinternet (​www.google.es​, ​www.mec.es​, ​www.ual.es​ ...)
 
 d. En ubuntu y con la orden ​dig​ realiza las siguientes pruebas:
