@@ -38,7 +38,11 @@ Imagen 4.  DNS Zentyal - DNS Ubuntu
 Imagen 5.  DNS Zentyal - DNS Windows
 ```
 c. En windows usa la orden ​nslookup​ y realiza consultas a diversos dominios deinternet (​www.google.es​, ​www.mec.es​, ​www.ual.es​ ...)
+![image6](images/DNS6.png "DNS Zentyal")
 
+```
+Imagen 6.  DNS Zentyal - nslookup Windows
+```
 d. En ubuntu y con la orden ​dig​ realiza las siguientes pruebas:
 
 ```bash
@@ -51,6 +55,43 @@ dig [@servidorDNS] NombreDominioAConsultar [tipoConsulta]
 #dig @TuIPServidorDNS www.ual.es any (Todas las consultasa,ns,mx,soa,...)
 #dig @TuIPServidorDNS -x 193.147.117.38 (consulta inversa IP--> nombre)
 ```
+![image7](images/dig1.png "DNS Zentyal")
+
+```
+Imagen 7.  DNS Zentyal - dig www.ual.es
+```
+![image8](images/dig2.png "DNS Zentyal")
+
+```
+Imagen 8.  DNS Zentyal - dig www.ual.es a
+```
+![image9](images/dig3.png "DNS Zentyal")
+
+```
+Imagen 9.  DNS Zentyal - dig www.ual.es ns
+```
+![image10](images/dig4.png "DNS Zentyal")
+
+```
+Imagen 10.  DNS Zentyal - dig www.ual.es mx
+```
+![image11](images/dig5.png "DNS Zentyal")
+
+```
+Imagen 11.  DNS Zentyal - dig www.ual.es soa
+```
+![image12](images/dig6.png "DNS Zentyal")
+
+```
+Imagen 12.  DNS Zentyal - dig www.ual.es any
+```
+![image13](images/dig7.png "DNS Zentyal")
+
+```
+Imagen 13.  DNS Zentyal - dig -x 193.147.117.38
+```
+
+
 e. Añadir como redireccionadores DNS 1.1.1.1 y 8.8.8.8
 
 2. Crear y configurar el servidor como primario en una zona de resolución directa.
