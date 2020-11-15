@@ -50,11 +50,11 @@ d. En el registro servidores de nombres (NS) configuramos uno nuevo que seans.tu
 
 e. Establece los registros de tipo A (nombres de máquinas) para las siguientes direcciones:
 ➢ns.tunombre.sri → la IP del servidor (dos registros, uno por cada IP) 
-➢tunombre.sri → la IP de tu máquina anfitriona. 
-➢pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de uncompañero) 
-➢router.tunombre.sri → 192.168.22.100 (Ip del router) 
-➢win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows) 
-➢ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu) 
+➢tunombre.sri → la IP de tu máquina anfitriona.  
+➢pcXX.tunombre.sri → 192.168.22.X (dónde XX es la IP de uncompañero)  
+➢router.tunombre.sri → 192.168.22.100 (Ip del router)  
+➢win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)  
+➢ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu)  
 
 f. Establece los siguientes registros de alias (CNAME):
 ➢mail → a la máquina ubuntu
