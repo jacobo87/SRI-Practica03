@@ -107,7 +107,7 @@ a. Vamos a crear una ​Dominio​ para nuestra red local que se llamará: tunom
 Imagen 15.  DNS Zentyal Dominio jacobo.sri
 ```
 b. En direcciones IP del dominio añadimos las Ip’s del propio servidor.
-![image16](images/DNS8.png "DNS Zentyal")
+![image16](images/DNS9.png "DNS Zentyal")
 
 ```
 Imagen 16.  DNS Zentyal Dominio jacobo.sri dirección IP
@@ -119,7 +119,18 @@ c. Parte inicial SOA
 ➢Refresh: 604800  
 ➢Retry: 86400  
 ➢Expire: 2419200  
-➢TTL negativo 10800  
+➢TTL negativo 10800 
+
+![image17](images/DNS10.png "DNS Zentyal")
+
+```
+Imagen 17.  DNS Zentyal Dominio db.jacobo.sri 
+``` 
+![image18](images/DNS11.png "DNS Zentyal")
+
+```
+Imagen 18.  DNS Zentyal Dominio db.jacobo.sri 
+```
 
 d. En el registro servidores de nombres (NS) configuramos uno nuevo que seans.tunombre.sri (la propia máquina)
 
