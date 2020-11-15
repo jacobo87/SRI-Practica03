@@ -93,7 +93,11 @@ Imagen 13.  DNS Zentyal - dig -x 193.147.117.38
 
 
 e. Añadir como redireccionadores DNS 1.1.1.1 y 8.8.8.8
+![image14](images/DNS7.png "DNS Zentyal")
 
+```
+Imagen 14.  DNS Zentyal Redireccionadores
+```
 2. Crear y configurar el servidor como primario en una zona de resolución directa.
 
 a. Vamos a crear una ​Dominio​ para nuestra red local que se llamará:tunombre.sri
