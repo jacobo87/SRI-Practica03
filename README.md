@@ -10,13 +10,22 @@ Siguiendo la configuración de máquinas virtuales que vimos en el tema inicial,
 ![image1](images/DNS1.png "DNS Zentyal")
 
 ```
-Imagen 1.  DNS Ubuntu - Módulo DNS Zentyal
+Imagen 1.  DNS Zentyal - Módulo DNS Zentyal
 ```
 ### Punto 3. EJERCICIOS
 1. Utilizar el servidor como sólo ​caché​. Por defecto, al instalar el servicio DNS, este actúacomo sólo caché, es decir, no es autorizado a ninguna zona y responde a consultas recursivas.
 
-a. Ahora podremos comprobar el funcionamiento de la caché a través de laherramienta ​Resolución de Nombres de Dominio ​disponible en ​Red ‣Herramientas. Haz varias consultas desde el servidor ​a la mismadirección y comprueba como se decrementa el tiempo de consulta.
+a. Ahora podremos comprobar el funcionamiento de la caché a través de laherramienta ​Resolución de Nombres de Dominio ​disponible en ​Red ‣Herramientas. Haz varias consultas desde el servidor ​a la misma dirección y comprueba como se decrementa el tiempo de consulta.
+![image2](images/DNS2.png "DNS Zentyal")
 
+```
+Imagen 2.  DNS Zentyal - Resolución de Nombre de Dominio
+```
+![image3](images/DNS3.png "DNS Zentyal")
+
+```
+Imagen 3.  DNS Zentyal - Resolución de Nombre de Dominio
+```
 b. Configura el cliente windows y ubuntu con ip fija y que tengan como servidorDNS la dirección del servidor.
 
 c. En windows usa la orden ​nslookup​ y realiza consultas a diversos dominios deinternet (​www.google.es​, ​www.mec.es​, ​www.ual.es​ ...)
