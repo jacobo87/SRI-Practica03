@@ -141,6 +141,12 @@ e. Establece los registros de tipo A (nombres de máquinas) para las siguientes 
 ➢router.tunombre.sri → 192.168.22.100 (Ip del router)  
 ➢win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)  
 ➢ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu)  
+![image19](images/DNS12.png "DNS Zentyal")
+
+```
+Imagen 19.  DNS Zentyal Nombres de máquinas
+```
+
 
 f. Establece los siguientes registros de alias (CNAME): 
 ➢mail → a la máquina ubuntu  
@@ -148,7 +154,11 @@ f. Establece los siguientes registros de alias (CNAME):
 ➢www → a tunombre.sri (máquina anfitriona)  
 ➢nombrecompañero → a la máquina del compañero.g.Establece el registro para servidor de correo (MX)  
 ➢tunombre.sri → mail (ubuntu)  
+![image20](images/DNS13.png "DNS Zentyal")
 
+```
+Imagen 20.  DNS Zentyal mail
+```
 3. Comprobar en cliente Ubuntu (debe estar configurado con ip fija) el funcionamiento del servidor DNS en el dominio de cada uno tunombre.sri con el comando ​dig​.
 
 a. Que resuelve todos los nombre y alias.
