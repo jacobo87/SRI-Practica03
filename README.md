@@ -100,10 +100,18 @@ Imagen 14.  DNS Zentyal Redireccionadores
 ```
 2. Crear y configurar el servidor como primario en una zona de resolución directa.
 
-a. Vamos a crear una ​Dominio​ para nuestra red local que se llamará:tunombre.sri
+a. Vamos a crear una ​Dominio​ para nuestra red local que se llamará: tunombre.sri
+![image15](images/DNS8.png "DNS Zentyal")
 
+```
+Imagen 15.  DNS Zentyal Dominio jacobo.sri
+```
 b. En direcciones IP del dominio añadimos las Ip’s del propio servidor.
+![image16](images/DNS8.png "DNS Zentyal")
 
+```
+Imagen 16.  DNS Zentyal Dominio jacobo.sri dirección IP
+``` 
 c. Parte inicial SOA
 ➢Nombre del servidor principal para que sea ns.tunombre.sri  
 ➢Contacto: tunombre.tunombre.sri  
