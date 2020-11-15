@@ -7,7 +7,11 @@
 Siguiendo la configuración de máquinas virtuales que vimos en el tema inicial, vamos aconfigurar un servidor DNS en la máquina de Zentyal.
 ### Punto 2. INSTALAR SERVICIO
 1. Instala el módulo DNS, si no lo está, y lo activamos.
+![image1](images/DNS1.png "DNS Zentyal")
 
+```
+Imagen 1.  DNS Ubuntu - Módulo DNS Zentyal
+```
 ### Punto 3. EJERCICIOS
 1. Utilizar el servidor como sólo ​caché​. Por defecto, al instalar el servicio DNS, este actúacomo sólo caché, es decir, no es autorizado a ninguna zona y responde a consultas recursivas.
 
