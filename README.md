@@ -78,12 +78,12 @@ e. Establece los registros de tipo A (nombres de máquinas) para las siguientes 
 ➢win.tunombre.sri → 10.0.X.X (ip de tu máquina cliente windows)  
 ➢ubuntu.tunombre.sri → 10.0.X.X (ip de tu máquina cliente ubuntu)  
 
-f. Establece los siguientes registros de alias (CNAME):
-➢mail → a la máquina ubuntu 
-➢ftp → al router 
-➢www → a tunombre.sri (máquina anfitriona) 
-➢nombrecompañero → a la máquina del compañero.g.Establece el registro para servidor de correo (MX) 
-➢tunombre.sri → mail (ubuntu) 
+f. Establece los siguientes registros de alias (CNAME): 
+➢mail → a la máquina ubuntu  
+➢ftp → al router  
+➢www → a tunombre.sri (máquina anfitriona)  
+➢nombrecompañero → a la máquina del compañero.g.Establece el registro para servidor de correo (MX)  
+➢tunombre.sri → mail (ubuntu)  
 
 3. Comprobar en cliente Ubuntu (debe estar configurado con ip fija) el funcionamiento del servidor DNS en el dominio de cada uno tunombre.sri con el comando ​dig​.
 
